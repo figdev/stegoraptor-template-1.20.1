@@ -3,20 +3,23 @@
 	"id": "stegoraptor",
 	"version": "${version}",
 	"name": "StegoRaptor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is the first test of StegoRaptor.",
 	"authors": [
-		"Me!"
+		"FigDev!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/stegoraptor/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.figdev.stegoraptor.StegoRaptor"
+		],
+		"client": [
+			"net.figdev.stegoraptor.StegoRaptorClient"
 		],
 		"fabric-datagen": [
 			"net.figdev.stegoraptor.StegoRaptorDataGenerator"
