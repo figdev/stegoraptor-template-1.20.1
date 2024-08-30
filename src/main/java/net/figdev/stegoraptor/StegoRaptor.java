@@ -2,6 +2,8 @@ package net.figdev.stegoraptor;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.figdev.stegoraptor.item.ModItems;
+import net.figdev.stegoraptor.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class StegoRaptor implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
