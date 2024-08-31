@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "stegoraptor:ruby"
+    }
+  },
+  "result": {
+    "item": "stegoraptor:ruby_block"
+  }
+}
