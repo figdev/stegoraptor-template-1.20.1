@@ -2,6 +2,7 @@ package net.figdev.stegoraptor.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.figdev.stegoraptor.StegoRaptor;
+import net.figdev.stegoraptor.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -19,6 +20,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_RUBY);
 
                         entries.add(Items.DIAMOND);
+
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
 
                     }).build());
