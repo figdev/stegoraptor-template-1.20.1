@@ -3,6 +3,7 @@ package net.figdev.stegoraptor.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.figdev.stegoraptor.StegoRaptor;
+import net.figdev.stegoraptor.block.custom.SoundBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -29,6 +30,8 @@ public class ModBlocks {
     public static final Block END_STONE_RUBY_ORE = registerBLock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f), UniformIntProvider.create(2, 5)));
 
+    public static final Block SOUND_BLOCK = registerBLock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBLock(String name, Block block) {
         registerBlockItem(name, block);

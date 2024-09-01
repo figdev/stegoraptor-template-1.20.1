@@ -6,6 +6,9 @@
   "block.stegoraptor.ruby_block": "Block of Ruby",
   "block.stegoraptor.raw_ruby_block": "Block of Raw Ruby",
 
+  "block.stegoraptor.sound_block": "Sound Block",
+  "item.stegoraptor.tomato": "Tomato",
+
   "block.stegoraptor.ruby_ore": "Ruby Ore",
   "block.stegoraptor.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.stegoraptor.nether_ruby_ore": "Nether Ruby Ore",
