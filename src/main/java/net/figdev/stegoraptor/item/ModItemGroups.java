@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.COAL_BRIQUETTE);
 
                         entries.add(Items.DIAMOND);
 

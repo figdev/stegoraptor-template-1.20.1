@@ -2,6 +2,7 @@ package net.figdev.stegoraptor;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.figdev.stegoraptor.block.ModBlocks;
 import net.figdev.stegoraptor.item.ModItems;
 import net.figdev.stegoraptor.item.ModItemGroups;
@@ -17,5 +18,6 @@ public class StegoRaptor implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }

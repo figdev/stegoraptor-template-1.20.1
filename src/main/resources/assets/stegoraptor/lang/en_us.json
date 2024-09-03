@@ -2,18 +2,20 @@
   "item.stegoraptor.ruby": "Ruby",
   "item.stegoraptor.raw_ruby":  "Raw Ruby",
   "item.stegoraptor.metal_detector": "Metal Detector",
+  "tooltip.stegoraptor.metal_detector.tooltip": "Finds valuables underground",
 
   "block.stegoraptor.ruby_block": "Block of Ruby",
   "block.stegoraptor.raw_ruby_block": "Block of Raw Ruby",
 
   "block.stegoraptor.sound_block": "Sound Block",
+  "tooltip.stegoraptor.sound_block.tooltip": "Makes a sweet sound when right-clicked",
   "item.stegoraptor.tomato": "Tomato",
+  "item.stegoraptor.coal_briquette": "Coal Briquette",
 
   "block.stegoraptor.ruby_ore": "Ruby Ore",
   "block.stegoraptor.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.stegoraptor.nether_ruby_ore": "Nether Ruby Ore",
   "block.stegoraptor.end_stone_ruby_ore": "End Stone Ruby Ore",
-
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
