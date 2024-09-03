@@ -23,15 +23,15 @@ public class SoundBlock extends Block {
         super(settings);
     }
     @Override
+    public void appendTooltip(ItemStack stack, @Nullable BlockView world,
+                              List<Text> tooltip, TooltipContext options){
+        tooltip.add(Text.translatable("tooltip.stegoraptor.sound_block.tooltip"));
+        super.appendTooltip(stack, world, tooltip, options);
+    }
+    @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos,
                               PlayerEntity player, Hand hand, BlockHitResult hit) {
         world.playSound(player, pos, SoundEvents.BLOCK_NOTE_BLOCK_XYLOPHONE.value(), SoundCategory.BLOCKS, 1f, 1f);
         return ActionResult.SUCCESS;
-    }
-    @Override
-    public void appendToolTip(ItemStack stack, @Nullable BlockView world,
-                              List<Text> tooltip, TooltipContext options){
-        tooltip.add(Text.translatable("tooltip.stegoraptor.sound_block.tooltip"));
-        super.appendTooltip(stack, world, tooltip, options);
     }
 }

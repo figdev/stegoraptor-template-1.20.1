@@ -11,7 +11,7 @@ import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -19,6 +19,12 @@ import java.util.List;
 public class MetalDetectorItem extends Item {
     public MetalDetectorItem(Settings settings) {
         super(settings);
+    }
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world,
+                              List<Text> tooltip, TooltipContext options){
+        tooltip.add(Text.translatable("tooltip.stegoraptor.metal_detector.tooltip"));
+        super.appendTooltip(stack, world, tooltip, options);
     }
 
     @Override
@@ -57,11 +63,5 @@ public class MetalDetectorItem extends Item {
 
     private boolean isValuableBlock(BlockState state) {
         return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
-    }
-    @Override
-    public void appendToolTip(ItemStack stack, @Nullable BlockView world,
-                              List<Text> tooltip, TooltipContext options){
-        tooltip.add(Text.translatable("tooltip.stegoraptor.sound_block.tooltip"));
-        super.appendTooltip(stack, world, tooltip, options);
     }
 }
