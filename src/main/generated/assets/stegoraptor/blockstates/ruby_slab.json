@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stegoraptor:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "stegoraptor:block/ruby_block"
+    },
+    "type=top": {
+      "model": "stegoraptor:block/ruby_slab_top"
+    }
+  }
+}

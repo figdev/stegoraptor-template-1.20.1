@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "stegoraptor:raw_ruby_block",
+    "stegoraptor:ruby_block",
+    "stegoraptor:ruby_ore",
+    "stegoraptor:deepslate_ruby_ore",
+    "stegoraptor:nether_ruby_ore",
+    "stegoraptor:end_stone_ruby_ore",
+    "stegoraptor:sound_block"
+  ]
+}

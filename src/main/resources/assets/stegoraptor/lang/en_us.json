@@ -12,6 +12,16 @@
   "item.stegoraptor.tomato": "Tomato",
   "item.stegoraptor.coal_briquette": "Coal Briquette",
 
+  "block.stegoraptor.ruby_stairs": "Ruby Stairs",
+  "block.stegoraptor.ruby_slab": "Ruby Slab",
+  "block.stegoraptor.ruby_button": "Ruby Button",
+  "block.stegoraptor.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.stegoraptor.ruby_fence": "Ruby Fence",
+  "block.stegoraptor.ruby_fence_gate": "Ruby Fence Gate",
+  "block.stegoraptor.ruby_wall": "Ruby Wall",
+  "block.stegoraptor.ruby_door": "Ruby Door",
+  "block.stegoraptor.ruby_trapdoor": "Ruby Trapdoor",
+
   "block.stegoraptor.ruby_ore": "Ruby Ore",
   "block.stegoraptor.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.stegoraptor.nether_ruby_ore": "Nether Ruby Ore",

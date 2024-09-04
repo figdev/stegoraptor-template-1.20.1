@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "stegoraptor:block/ruby_block",
+    "side": "stegoraptor:block/ruby_block",
+    "top": "stegoraptor:block/ruby_block"
+  }
+}
