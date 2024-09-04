@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-04T01:49:49.5869301	StegoRaptor/Recipes
+// 1.20.1	2024-09-04T04:49:38.7044875	StegoRaptor/Recipes
 0d958a7be5b77713bc99572786c0dcee33b011cd data\stegoraptor\advancements\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
 8cfc3861a7382cbb9536ad0495a127c6efaf30fe data\stegoraptor\advancements\recipes\misc\raw_ruby.json
 05155de6473dc1923b96f6fa3be372570bd07a79 data\stegoraptor\recipes\ruby_from_blasting_ruby_ore.json
@@ -14,8 +14,8 @@ da8b78b6508a9a9a58f1bee9aa168d260dba6d86 data\stegoraptor\advancements\recipes\m
 8e3430d02e2c3779afe55ee2a31b48cd10e1c287 data\stegoraptor\recipes\ruby_from_smelting_ruby_ore.json
 181e73b66323f0b4663ddd8c50b43313b0002449 data\stegoraptor\recipes\ruby_from_blasting_deepslate_ruby_ore.json
 896da76c00eaedf11894396a8febd43c76d1851a data\stegoraptor\advancements\recipes\misc\ruby_from_blasting_end_stone_ruby_ore.json
-66cef73caef508a00afdca860207279408f66e7e data\stegoraptor\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json
 e150acc9d6a1f5ec2d5ddbdcaa928993f5c1a164 data\stegoraptor\advancements\recipes\misc\ruby_from_blasting_raw_ruby.json
+66cef73caef508a00afdca860207279408f66e7e data\stegoraptor\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json
 3bbe1557ea40c36941fc33593a06eb8f4bb317e3 data\stegoraptor\recipes\ruby_from_blasting_nether_ruby_ore.json
 5ef103f629499d17efccec9aecda550c433f3ac6 data\stegoraptor\recipes\ruby_block.json
 b4c3869a857a4043efce0bf08dd219ff61a35348 data\stegoraptor\advancements\recipes\misc\ruby_from_smelting_ruby_ore.json

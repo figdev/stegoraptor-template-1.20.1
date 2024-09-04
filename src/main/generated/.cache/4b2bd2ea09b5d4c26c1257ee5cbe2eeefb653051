@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-04T01:49:49.5819422	StegoRaptor/Model Definitions
+// 1.20.1	2024-09-04T04:49:38.7004995	StegoRaptor/Model Definitions
 d2d100bc29c3dca3832da320e0efb6548db8abcf assets\stegoraptor\blockstates\end_stone_ruby_ore.json
 66ac92fb8d1f6fc5ed8d804d990308dd27c038a0 assets\stegoraptor\models\block\ruby_trapdoor_bottom.json
 143d35c6a4bb918a2352f1255c63b85075b2d6ea assets\stegoraptor\models\block\ruby_door_bottom_left.json
@@ -61,8 +61,8 @@ b8a95e72937b462b0eb4fc9096c51bacea1acb3a assets\stegoraptor\models\item\tomato.j
 99f641a6ea3156f84518f030bbf0a1003fdb140b assets\stegoraptor\models\block\ruby_fence_side.json
 10518c585d8bb0bd56a81fd129fbc5faee60b85a assets\stegoraptor\models\block\deepslate_ruby_ore.json
 79bebb14369df7254bf0fa8a34834010fe3dcac0 assets\stegoraptor\models\block\ruby_ore.json
-d2fd3779eb560eccdfe239be59a73795fe74a150 assets\stegoraptor\blockstates\raw_ruby_block.json
 0674a904abc48b275002c09bdda3601f10364450 assets\stegoraptor\models\item\coal_briquette.json
+d2fd3779eb560eccdfe239be59a73795fe74a150 assets\stegoraptor\blockstates\raw_ruby_block.json
 0d0cec6d24f4a6c3c7520c3a3b5cd6b13c112f20 assets\stegoraptor\models\item\sound_block.json
 83341e2d75330ca76ed725d8e3f5044810845241 assets\stegoraptor\blockstates\ruby_trapdoor.json
 563ec25bbb6c30564cd0b7e0768ff72a501bc157 assets\stegoraptor\models\item\raw_ruby.json
