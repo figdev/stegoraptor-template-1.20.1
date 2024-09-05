@@ -24,6 +24,12 @@
 
   "item.stegoraptor.ruby_staff": "Ruby Staff",
 
+  "item.stegoraptor.ruby_pickaxe": "Ruby Pickaxe",
+  "item.stegoraptor.ruby_axe": "Ruby Axe",
+  "item.stegoraptor.ruby_shovel": "Ruby Shovel",
+  "item.stegoraptor.ruby_sword": "Ruby Sword",
+  "item.stegoraptor.ruby_hoe": "Ruby Hoe",
+
   "block.stegoraptor.ruby_ore": "Ruby Ore",
   "block.stegoraptor.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.stegoraptor.nether_ruby_ore": "Nether Ruby Ore",
