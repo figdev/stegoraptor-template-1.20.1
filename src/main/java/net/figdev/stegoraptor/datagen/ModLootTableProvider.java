@@ -3,6 +3,7 @@ package net.figdev.stegoraptor.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.figdev.stegoraptor.block.ModBlocks;
+import net.figdev.stegoraptor.block.custom.CornCropBlock;
 import net.figdev.stegoraptor.block.custom.TomatoCropBlock;
 import net.figdev.stegoraptor.item.ModItems;
 import net.minecraft.block.Block;
@@ -10,6 +11,7 @@ import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.AnyOfLootCondition;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
@@ -51,6 +53,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 .exactMatch(TomatoCropBlock.AGE, 5));
         addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP,
                 ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder));
+
+        AnyOfLootCondition.Builder builder2 =
+                BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                                .exactMatch(CornCropBlock.AGE, 7))
+                        .or(BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                                .exactMatch(CornCropBlock.AGE, 8)));
+
+        // BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+        //         .exactMatch(CornCropBlock.AGE, 8));
+
+        addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, builder2));
 
     }
 

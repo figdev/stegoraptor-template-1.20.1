@@ -13,6 +13,8 @@ public class StegoRaptorClient implements ClientModInitializer {
                 RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TOMATO_CROP,
                 RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CORN_CROP,
+                RenderLayer.getCutout());
 
     }
 }
