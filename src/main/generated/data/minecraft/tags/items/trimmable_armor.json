@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "stegoraptor:ruby_helmet",
+    "stegoraptor:ruby_chestplate",
+    "stegoraptor:ruby_leggings",
+    "stegoraptor:ruby_boots"
+  ]
+}

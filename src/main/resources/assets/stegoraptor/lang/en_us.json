@@ -30,6 +30,11 @@
   "item.stegoraptor.ruby_sword": "Ruby Sword",
   "item.stegoraptor.ruby_hoe": "Ruby Hoe",
 
+  "item.stegoraptor.ruby_helmet": "Ruby Helmet",
+  "item.stegoraptor.ruby_chestplate": "Ruby Chestplate",
+  "item.stegoraptor.ruby_leggings": "Ruby Leggings",
+  "item.stegoraptor.ruby_boots": "Ruby Boots",
+
   "block.stegoraptor.ruby_ore": "Ruby Ore",
   "block.stegoraptor.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.stegoraptor.nether_ruby_ore": "Nether Ruby Ore",
