@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-06T02:34:19.6972463	StegoRaptor/Block Loot Tables
+// 1.20.1	2024-09-06T10:36:41.3531167	StegoRaptor/Block Loot Tables
 122a53110f8fb79f25cb58515409b6c5ffc72338 data\stegoraptor\loot_tables\blocks\ruby_wall.json
 af89c8ddabf441821120aef8385d6f0b327023d8 data\stegoraptor\loot_tables\blocks\raw_ruby_block.json
 493cd07fa353f3a22160e9e8418a97b21f4662e6 data\stegoraptor\loot_tables\blocks\ruby_block.json
@@ -6,6 +6,7 @@ af89c8ddabf441821120aef8385d6f0b327023d8 data\stegoraptor\loot_tables\blocks\raw
 d03a6bdee8651014f0c76e779ad354d7dd2d9c1e data\stegoraptor\loot_tables\blocks\end_stone_ruby_ore.json
 561f3204865b8edb0ac8e2aebaebd4ee0ee7c9c9 data\stegoraptor\loot_tables\blocks\ruby_stairs.json
 fa8eb2d3bd8eca195a7c2f480219886b9d0ca629 data\stegoraptor\loot_tables\blocks\sound_block.json
+d8d541877bdcb6a1615e77a94647d6a7302c59bb data\stegoraptor\loot_tables\blocks\tomato_crop.json
 e1cc5fd2eed0daeafbae232f60ed4941123764e0 data\stegoraptor\loot_tables\blocks\ruby_ore.json
 6e5d816f607f112c4f3765a6c2a11dc6e4c75d57 data\stegoraptor\loot_tables\blocks\ruby_door.json
 c881d6a4f0adc114796b0890bb5f650384ed811f data\stegoraptor\loot_tables\blocks\ruby_fence_gate.json

@@ -3,6 +3,7 @@ package net.figdev.stegoraptor.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.figdev.stegoraptor.block.ModBlocks;
+import net.figdev.stegoraptor.block.custom.TomatoCropBlock;
 import net.figdev.stegoraptor.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -35,6 +36,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP,
+                TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator){

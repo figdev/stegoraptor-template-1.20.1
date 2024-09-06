@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.figdev.stegoraptor.StegoRaptor;
+import net.figdev.stegoraptor.block.ModBlocks;
 import net.figdev.stegoraptor.item.custom.MetalDetectorItem;
 import net.figdev.stegoraptor.item.custom.ModArmorItem;
 import net.minecraft.item.*;
@@ -50,6 +51,8 @@ public class ModItems {
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
