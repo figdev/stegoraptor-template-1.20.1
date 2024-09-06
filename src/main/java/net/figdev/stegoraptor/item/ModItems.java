@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.figdev.stegoraptor.StegoRaptor;
 import net.figdev.stegoraptor.item.custom.MetalDetectorItem;
+import net.figdev.stegoraptor.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -38,7 +39,7 @@ public class ModItems {
 
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
