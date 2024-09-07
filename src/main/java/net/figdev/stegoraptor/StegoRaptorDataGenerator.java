@@ -3,7 +3,6 @@ package net.figdev.stegoraptor;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.figdev.stegoraptor.datagen.*;
-import net.figdev.stegoraptor.item.ModItems;
 
 public class StegoRaptorDataGenerator implements DataGeneratorEntrypoint {
 	@Override
