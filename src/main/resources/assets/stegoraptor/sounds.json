@@ -34,5 +34,13 @@
     "sounds": [
       "stegoraptor:sound_block_step"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "stegoraptor:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

@@ -7,6 +7,7 @@ import net.figdev.stegoraptor.StegoRaptor;
 import net.figdev.stegoraptor.block.ModBlocks;
 import net.figdev.stegoraptor.item.custom.MetalDetectorItem;
 import net.figdev.stegoraptor.item.custom.ModArmorItem;
+import net.figdev.stegoraptor.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -58,6 +59,9 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings()));
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL,
+                    new FabricItemSettings().maxCount(1), 122));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
