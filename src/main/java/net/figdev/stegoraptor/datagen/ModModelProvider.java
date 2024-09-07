@@ -42,6 +42,9 @@ public class ModModelProvider extends FabricModelProvider {
                 TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
         blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP,
                 CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
+
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA,
+                ModBlocks.POTTED_DAHLIA,BlockStateModelGenerator.TintType.NOT_TINTED);
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator){
