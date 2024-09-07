@@ -8,6 +8,7 @@ import net.figdev.stegoraptor.item.ModItems;
 import net.figdev.stegoraptor.item.ModItemGroups;
 import net.figdev.stegoraptor.util.ModCustomTrades;
 import net.figdev.stegoraptor.util.ModLootTableModifiers;
+import net.figdev.stegoraptor.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +23,7 @@ public class StegoRaptor implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
+		ModVillagers.registerVillagers();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
