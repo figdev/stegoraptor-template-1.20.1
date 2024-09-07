@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.figdev.stegoraptor.block.ModBlocks;
 import net.figdev.stegoraptor.item.ModItems;
 import net.figdev.stegoraptor.item.ModItemGroups;
+import net.figdev.stegoraptor.sound.ModSounds;
 import net.figdev.stegoraptor.util.ModCustomTrades;
 import net.figdev.stegoraptor.util.ModLootTableModifiers;
 import net.figdev.stegoraptor.villager.ModVillagers;
@@ -24,6 +25,7 @@ public class StegoRaptor implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
 		ModVillagers.registerVillagers();
+		ModSounds.registerSounds();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
